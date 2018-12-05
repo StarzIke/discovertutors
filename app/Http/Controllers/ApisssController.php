@@ -139,4 +139,19 @@ class ApisssController extends Controller
     {
         //
     }
+    // code for login api    public function login(Request $request)
+    {
+        if((\Auth::attempt(['email'=>request('email'), 'password'=>request('password')]))){
+
+            return response()->json([
+                'status'=>200,
+                'message'=>'Login Was Successful, Welcome to Discover Tutor'
+            ]);
+        } 
+        else{
+    return response()->json([
+        'status'=>400,
+        'message'=>'You do not Have an Account Yet, Please Sign up'
+    ]);
+}
 }
