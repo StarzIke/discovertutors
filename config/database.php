@@ -45,7 +45,7 @@ return [
             'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'tutors'),
-            'username' => env('DB_USERNAME', 'discovertutuors'),
+            'username' => env('DB_USERNAME', 'discovertutors'),
             'password' => env('DB_PASSWORD', 'discovertutors'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
