@@ -22,6 +22,6 @@ use Illuminate\Http\Request;
 //     Route::resource('users', 'PassportCOntroller');
 // });
 Route::resource('/posts', 'ApisssController');
-Route::post('/login', 'ApisssController@login');
+Route::get('/login', 'ApisssController@login');
 Route::post('/register', 'ApisssController@store');
 
