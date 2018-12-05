@@ -139,7 +139,8 @@ class ApisssController extends Controller
     {
         //
     }
-    // code for login api    public function login(Request $request)
+    // code for login api    
+    public function login(Request $request)
     {
         if((\Auth::attempt(['email'=>request('email'), 'password'=>request('password')]))){
 
