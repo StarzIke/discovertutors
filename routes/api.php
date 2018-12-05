@@ -13,14 +13,14 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
-Route::middleware('auth:api')->group(function(){
-    Route::get('user', 'PassportController@details');
-    Route::resource('users', 'PassportCOntroller');
-});
-Route::post('login', 'PassportController@login');
+// Route::middleware('auth:api')->group(function(){
+//     Route::get('user', 'PassportController@details');
+//     Route::resource('users', 'PassportCOntroller');
+// });
+Route::resource('/posts', 'ApisssController');
 
 
