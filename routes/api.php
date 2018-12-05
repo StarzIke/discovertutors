@@ -23,5 +23,5 @@ use Illuminate\Http\Request;
 // });
 Route::resource('/posts', 'ApisssController');
 Route::post('/login', 'ApisssController@login');
-Route::post('/register', 'ApisssController@store);
+Route::post('/register', 'ApisssController@store');
 
