@@ -1,0 +1,76 @@
+.jumbotron{
+	background-image: url("../images/mypadi.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	padding: 50px;
+	width: 100%;
+}
+.overlay{
+  
+height: 90%;
+width: 100%;
+background-color: #000;
+position: absolute;
+opacity: 0.3;
+margin: 0;
+padding: 0;
+display: flex;
+padding-bottom: 35px;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+}
+.foot{
+  padding-left: 60px;
+  padding-right: 20px;
+  margin: 20px;
+}
+
+.quote{
+
+	margin: 40px;
+}
+
+
+
+
+.will{
+	margin-left: 590px;
+	font-family: sans-serif;
+}
+.tp{
+	padding-top: 50px;
+	word-spacing: 6px;
+}
+
+
+.flick{
+
+
+	margin-top: 70px;
+	padding: 30px;
+}
+
+  .hero-heading{
+   text-align:center;
+      padding-top:170px;
+     font-family: serif;
+    font-size: 55px;
+    color: white;
+  	
+  }
+
+  .hero{
+  	margin-right: 200px;
+
+  }
+.why{
+
+
+	margin-left: 540px;
+	font-family: serif;
+	margin-top: 20px;
+}

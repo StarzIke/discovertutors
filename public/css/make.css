@@ -1,0 +1,107 @@
+
+.container-fluid{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mypadi.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin-top: 5%
+}
+.container-fluid p{
+    margin-left: 25%
+}
+.text-left{
+    margin: 10%
+}
+.btn{background-color: green;
+    width: 100%;
+}
+
+.tp{
+    padding-top: 50px;
+    word-spacing: 6px;
+}
+.foot{
+  padding-left: 80px;
+  padding-right: 20px;
+  margin: 20px;
+}
+
+
+.btnn{
+    background-color: green
+}
+.container{
+    margin-top: 5%;
+}
+.row{
+    margin-top: 5%
+}
+.text-left h3{
+    margin-left: 25%
+}
+.jumb{
+    
+    margin-bottom: 10%
+}
+.form{
+    background-color: white;
+    color: black;
+margin: 2%;
+margin-right: 20%
+}
+
+.copyright ul li {
+    list-style: none;
+    text-decoration: none
+}
+a{
+    color: black;
+}
+.copyright ul li a{
+    color: #000;
+}
+
+
+
+.main-footer h4 {
+    color: #000;
+    font-size: 22px
+}
+
+
+
+.main-footer ul li {
+    list-style: none
+}
+
+.main-footer ul li a {
+    color: black;
+    font-size: 14px;
+    line-height: 30px
+}
+
+.main-footer ul li a:hover {
+    color: #8ace42;
+    text-decoration: none}
+.center-button{
+    color: greenyellow
+}
+p a{
+    color: greenyellow
+}
+
+i{
+    font-size: 300%;
+    color: greenyellow
+}
+.copyright i{
+    color: #000;
+    font-size: 100%
+}
+
+.navbar i{
+    color: #000;
+    font-size: 100%
+}

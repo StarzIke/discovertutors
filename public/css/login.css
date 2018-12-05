@@ -1,0 +1,44 @@
+.jumbotron{
+	background-image: url("../images/real.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	padding: 50px;
+	width: 100%;
+}
+.overlay{
+  
+height: 99%;
+width: 100%;
+background-color: #000;
+position: absolute;
+opacity: 0.7;
+margin: 0;
+padding: 0;
+display: flex;
+padding-bottom: 35px;
+top:0;
+bottom:0;
+left:0;
+right: 0;
+}
+.warm{
+
+padding-left: 20px;
+margin-left: 320px;
+width: 400px;
+height: 600px;
+margin-bottom: 40px;
+padding-right: 20px;
+padding-bottom: 200px;
+padding-top: 30px;
+
+}
+
+
+
+.form-control{
+
+     width: 350px;
+}
