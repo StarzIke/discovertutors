@@ -154,5 +154,7 @@ class ApisssController extends Controller
         'status'=>400,
         'message'=>'You do not Have an Account Yet, Please Sign up'
     ]);
+    
+    }
 }
 
